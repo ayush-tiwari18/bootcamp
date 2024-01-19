@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="DOB">DOB: </label>
+            <input type="date" id="DOB">
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Music">
+            <label for="hobby1">Music</label><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Sports">
+            <label for="hobby2">Sports</label><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Reading">
+            <label for="hobby3">Reading</label>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
